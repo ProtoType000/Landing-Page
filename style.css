@@ -8,6 +8,13 @@ body {
 
 .button {
     background-color: #3882F6;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
 }
 
 .section1 {
@@ -27,6 +34,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding-bottom: 42px;
+    padding-top: 24px;
 }
 
 .navbar {
@@ -34,9 +42,16 @@ body {
     gap: 150px;
 }
 
+.navbar a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .logo {
     height: 100px;
     width: 150px;
+    border-radius: 5px;
 }
 
 .hero-main-text {
@@ -55,6 +70,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 42px;
+    padding-bottom: 100px;
 }
 
 .content1 {
@@ -64,4 +80,30 @@ body {
 .image1 {
     width: 40%;
     margin-left: 125px;
+    border-radius: 5px;
+}
+
+.information-header-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+}
+
+.information-content img {
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+    border: 4px solid red;
+}
+
+.information-content {
+    text-align: center;
+    padding: 24px 65px
 }
